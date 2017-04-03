@@ -1,0 +1,27 @@
+{
+    "name": "combustible/spatial",
+    "description": "Spatial data structures for PHP",
+    "type": "library",
+    "keywords": ["spatial", "data strucutre", "tree", "k-d tree", "clustering"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley Elfring",
+            "email": "wesley@combustible.nl"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Combustible\\Spatial" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/CombustibleNL/Spatial.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    }
+}
