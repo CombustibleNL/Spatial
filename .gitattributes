@@ -1,0 +1,5 @@
+# Default
+* text=auto
+
+# PHP
+*.php text eol=lf
